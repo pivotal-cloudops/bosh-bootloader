@@ -12,6 +12,6 @@ bosh create-env \
  -o ${BBL_STATE_DIR}/bosh-deployment/aws/iam-instance-profile.yml \
  -o ${BBL_STATE_DIR}/bosh-deployment/uaa.yml \
  -o ${BBL_STATE_DIR}/bosh-deployment/credhub.yml \
- -o ${BBL_STATE_DIR}/credhub-2.4.yml \
+ -o ${BBL_STATE_DIR}/credhub-2.5.yml \
  -v access_key_id="${BBL_AWS_ACCESS_KEY_ID}" \
  -v secret_access_key="${BBL_AWS_SECRET_ACCESS_KEY}"
